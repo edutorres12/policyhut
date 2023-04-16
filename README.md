@@ -25,7 +25,7 @@ The main features of this template are its great flexibility for the creation of
 ## Getting Started
 Download and install node.js
 1. [node.js](https://nodejs.org/es/)
-2. Install Gulp
+2. Install Gulp on the theme file /policyhut
      ```sh
    npm install --global gulp-cli
    
