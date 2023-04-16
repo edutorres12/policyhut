@@ -4,9 +4,9 @@ Policyhut
 
 ## Table of Contents
 
-- [About the Project](#about)
-- [Built With](#built)
-- [Getting Started](#getting)
+- [About the Project](#abouttheproject)
+- [Built With](#builtwith)
+- [Getting Started](#gettingstarted)
 - [Website](#website)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
