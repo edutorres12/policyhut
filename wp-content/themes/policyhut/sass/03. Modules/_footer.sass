@@ -1,0 +1,58 @@
+footer
+    padding:
+        top: 101px
+        bottom: 46px
+    overflow: hidden
+    .footer-brand img
+        margin-bottom: 30px
+    .footer-link:hover
+        text-decoration: underline!important
+    .contact-wrapper
+        margin-right: 62px
+        .global__paragraph
+            margin-bottom: 12px
+    .services-menu, .quick-link-menu, .social-wrapper
+        .global__subtitle
+            margin-bottom: 28px
+        .footer-item
+            &:not(:last-of-type)
+                margin-bottom: 10px
+            .footer-link
+                font-size: 18px
+                line-height: 16px
+    .social-wrapper
+        a
+            @include media-breakpoint-down(xxl)
+                margin-right: 20px
+            @include media-breakpoint-down(lg)
+                margin-right: 0px                
+        .icon-wrapper
+            padding: 19px
+            margin:
+                bottom: 20px
+                right: 20px
+            @include media-breakpoint-down(xxl)
+                margin:
+                    right: unset
+            @include media-breakpoint-down(lg)
+                margin:
+                    right: 5px!important                   
+            &:hover img
+                transform: scale(1.2)
+            img
+                transition: all 0.3s ease-in-out
+                width: 32px
+    hr
+        opacity: 1
+        margin:
+            top: 30px
+            bottom: 50px
+    .footer-terms
+        margin-bottom: 20px
+        .footer-link
+            @include media-breakpoint-down(sm)
+                padding: 0px 24px
+        .spacer
+            margin: 0 20px
+            @include media-breakpoint-down(sm)
+                display: none

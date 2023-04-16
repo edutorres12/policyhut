@@ -1,0 +1,146 @@
+.home__banner
+    padding:
+        top: 150px
+        bottom: 63px
+    .bg-wrapper
+        .lightning
+            bottom: 23px
+    .global__title
+        margin-bottom: 18px
+    .global__paragraph
+        margin-bottom: 40px
+    .btn-container
+        margin-bottom: 50px
+        .btn
+            &:first-of-type
+                margin-right: 18px
+            &:last-of-type
+                padding:
+                    left: 44.5px
+                    right: 44.5px
+                @include media-breakpoint-down(sm)
+                    padding: 
+                        left: 26.5px
+                        right: 26.5px
+    .trust-wrapper
+        .global__subtitle
+            margin-right: 12px
+        .image-wrapper
+            div
+                width: 60px
+                height: 60px
+                &:nth-child(02)
+                    left: -16px
+                &:nth-child(03)
+                    left: -32px
+                &:nth-child(04)
+                    left: -48px
+    .arrow-top
+        right: 528px
+        @include media-breakpoint-down(lg)
+            right: 20px
+
+.home__covering
+    padding: 172px 0
+    .global__subtitle
+        margin-bottom: 50px
+    .card
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12)       
+        max-width: 270px
+        @include media-breakpoint-down(md)
+            max-width: unset
+        border-radius: 12px
+        margin-bottom: 30px
+        &:hover
+            transform: scale(1.05)
+            box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06)
+        .card-img-top
+            border:
+                top-left-radius: 12px
+                top-right-radius: 12px
+        .card-body
+            padding:
+                top: 47px
+                bottom: 30px
+                left: 24px
+                right: 24px
+            .icon-wrapper
+                padding: 19px
+                top: -35px
+                right: 22px
+                img
+                    width: 32px
+            .global__subtitle
+                margin-bottom: 12px
+    .btn-container
+        .btn-border-blue
+            margin-top: 50px
+
+.home__contact
+    padding: 150px 0
+    .global__subtitle
+        margin-bottom: 20px
+    .wpforms-container
+        margin: 0
+        max-width: 670px
+        @include media-breakpoint-down(xl)
+            max-width: unset
+        width: 100%
+        .wpforms-field-container
+            display: flex
+            flex-wrap: wrap
+            flex-direction: row
+            .selected-value
+                input#wpforms-19-field_3
+                    --wpforms-button-background-color: #0033A0
+            .wpforms-field
+                padding: 0
+                label
+                    margin-bottom: 6px
+                    font-weight: 500
+                    color: map-get($theme-colors, 'navy-blue')
+                    .wpforms-required-label
+                        color: map-get($theme-colors, 'red')
+                input, select
+                    height: 62px
+                    padding: 16px 14px
+                    background-color: #fff
+                    border: 1px solid #E7E8EC
+                    border-radius: 8px
+                    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05)
+                    color: map-get($theme-colors, 'dark-grey')
+                &:not(.wpforms-field-number-slider)
+                    max-width: 320px
+                    width: 100%
+                    margin-bottom: 12px
+                    @include media-breakpoint-down(xl)
+                        width: 100%
+                        max-width: unset
+                &.wpforms-field-name, &.wpforms-field-number
+                    margin-right: 30px
+                    @include media-breakpoint-down(xl)
+                        margin-right: unset                    
+                &.wpforms-field-number-slider
+                    max-width: 100%
+                    width: 100%
+                    input
+                        background-color: #CCD6EC
+                    .wpforms-field-number-slider-hint
+                        padding-top: 6px
+                        display: flex
+                        justify-content: space-between
+                        color: map-get($theme-colors, 'navy-blue')
+                        font-size: 16px
+                        line-height: 100%
+        .wpforms-submit-container
+            padding: 0
+            button
+                height: 62px
+                margin-top: 40px
+                background-color: map-get($theme-colors, 'blue')!important
+                font:
+                    size: 18px
+                    weight: 600
+                line-height: 100%
+                padding: 22px 36px
+                border-radius: 8px

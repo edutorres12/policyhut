@@ -1,0 +1,79 @@
+.global__title
+    font:
+        size: 60px
+        weight: 700
+    line-height: 78px
+    @include media-breakpoint-down(md)
+        font:
+            size: 50px
+        line-height: 68px
+
+.global__paragraph
+    font:
+        size: 16px
+        weight: 400
+    line-height: 29px
+
+.global__subtitle
+    font:
+        size: 48px
+        weight: 700
+    line-height: 62px
+    &.small
+        font:
+            size: 24px
+            weight: 600
+        line-height: 36px
+
+.global__lead
+    font:
+        size: 20px
+        weight: 600
+    line-height: 100%
+
+.global__btn
+    font:
+        size: 18px
+        weight: 600
+    @include media-breakpoint-down(sm)
+        font:
+            size: 15px
+    line-height: 16px
+    padding: 22px 24px
+    border: 1px solid transparent
+    border-radius: 8px
+    &.btn-border-blue
+        border-color: map-get($theme-colors, 'blue')
+        color: map-get($theme-colors, 'blue')
+    &.btn-blue
+        background-color: map-get($theme-colors, 'blue')
+        border-color: map-get($theme-colors, 'blue')
+        color: #fff
+    &.btn-white
+        background-color: #fff
+        border-color: #fff
+        color: map-get($theme-colors, 'navy-blue')
+
+@each $name, $color in $theme-colors
+    .text-#{$name}
+        color: $color!important
+
+    .bg-#{$name}
+        background-color: $color!important
+
+    .border-#{$name}
+        border-color: $color!important
+
+.fw-medium
+    font-weight: 500!important
+
+.lh-100
+    line-height: 100%
+
+@for $i from 1 through 10
+    .z-#{$i}
+        z-index: $i!important
+
+@media (min-width: 1900px)
+    .ms-xxxl-5
+        margin-left: 0!important

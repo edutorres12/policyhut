@@ -1,0 +1,21 @@
+.navbar
+    .nav-item
+        @include media-breakpoint-down(xl)
+            padding: 10px 0px
+        .nav-link
+            font-size: 18px
+            &.btn
+                padding: 18px 24px!important
+                &.btn-border-blue
+                    margin-left: 94px
+                    @include media-breakpoint-down(xxl)
+                        margin-left: 0px
+                &.btn-blue
+                    margin-left: 12px
+                    @include media-breakpoint-down(xl)
+                        margin-left: 0px
+        .dropdown-menu
+            display: none
+        &:hover
+            .dropdown-menu
+                display: block
