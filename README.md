@@ -13,7 +13,7 @@ Policyhut
 
 
 ## About the Project
-This is a starter template designed for wordpress using vanilla javascript and sass.
+This site was created with a starter template designed for wordpress using vanilla javascript and sass.
 The main features of this template are its great flexibility for the creation of websites through templates and custom code, has several plugins that streamline the development of specific features such as sliders, animations, etc..
 
 ## Built With
