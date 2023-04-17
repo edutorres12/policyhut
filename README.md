@@ -23,7 +23,11 @@ The main features of this template are its great flexibility for the creation of
 * [Sass](https://sass-lang.com/)
 
 ## Getting Started
-Download and install node.js
+1. Install Wordpress in Localhost: https://wordpress.org/download/
+2. Go to https://wordpress.org/plugins/all-in-one-wp-migration/ plugin, download and install
+3. From the All in one wp-migration plugin configurations, import the file: edunieves.com-20230417-171258-n90q0d.wpress. This will install the complete site in localhost.
+
+In order to compile theme, Download and install node.js inside the theme folder wp-content/themes/policyhut:
 1. [node.js](https://nodejs.org/es/)
 2. Install Gulp on the theme file /policyhut
      ```sh
